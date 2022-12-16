@@ -1,0 +1,7 @@
+* * * * * curl 'http://localhost/check_queue'
+* * * * * curl 'http://localhost/delete_temporaries'
+* * * * * sleep 10;curl 'http://localhost/delete_temporaries'
+* * * * * sleep 20;curl 'http://localhost/delete_temporaries'
+* * * * * sleep 30;curl 'http://localhost/delete_temporaries'
+* * * * * sleep 40;curl 'http://localhost/delete_temporaries'
+* * * * * sleep 50;curl 'http://localhost/delete_temporaries'
